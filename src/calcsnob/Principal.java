@@ -49,7 +49,7 @@ public class Principal extends javax.swing.JFrame {
         mSair = new javax.swing.JMenu();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("Calculadora de Nobres");
+        setTitle("CalcSnob");
         setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         setResizable(false);
 
