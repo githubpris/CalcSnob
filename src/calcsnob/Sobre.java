@@ -52,7 +52,7 @@ public class Sobre extends javax.swing.JFrame {
         jLabel4.setText("facebook.com/jonathan.dfi");
 
         jLabel6.setFont(new java.awt.Font("Tahoma", 0, 7)); // NOI18N
-        jLabel6.setText("v 1.0");
+        jLabel6.setText("v 1.3");
 
         jLabel7.setFont(new java.awt.Font("Tahoma", 0, 9)); // NOI18N
         jLabel7.setText("Todos os direitos reservados ©");
@@ -75,8 +75,7 @@ public class Sobre extends javax.swing.JFrame {
                             .addGroup(jPanel1Layout.createSequentialGroup()
                                 .addComponent(jLabel2)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(jLabel4)))
-                        .addGap(21, 21, 21)))
+                                .addComponent(jLabel4)))))
                 .addContainerGap())
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addComponent(jLabel7)
@@ -99,7 +98,6 @@ public class Sobre extends javax.swing.JFrame {
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                         .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 9, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(13, 13, 13)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel7)
                     .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 14, javax.swing.GroupLayout.PREFERRED_SIZE)))

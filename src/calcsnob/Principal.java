@@ -231,9 +231,9 @@ public class Principal extends javax.swing.JFrame {
 
     private void btnCalcularActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCalcularActionPerformed
        try {
-            n.setProximoNobre(Integer.parseInt(txtProximoNobre.getText().trim().replaceAll(" ", "")));
+            n.setProximoNobre(Integer.parseInt(txtProximoNobre.getText().trim().replaceAll(" ", ""))); //retira espaços q podem vir no Ctrl + V
             txtProximoNobre.setText(Integer.toString(n.getProximoNobre()));
-            n.setTotalArmazenamento(Integer.parseInt(txtTotalArmazenamento.getText().trim().replaceAll(" ", "")));
+            n.setTotalArmazenamento(Integer.parseInt(txtTotalArmazenamento.getText().trim().replaceAll(" ", ""))); //retira espaços q podem vir no Ctrl + V
             txtTotalArmazenamento.setText(Integer.toString(n.getTotalArmazenamento()));
             n.calcularNobres();            
             
